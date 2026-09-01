@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tebogo Matlhoko — Junior Software Developer Portfolio">
+  <title>Tebogo Matlhoko | Junior Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div><div class="bg-orb orb-two"></div><div class="bg-orb orb-three"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home"><span class="brand-dot"></span>TM<span>.</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> JUNIOR SOFTWARE DEVELOPER</p>
+        <h1>Building digital<br><em>experiences</em> that<br>feel alive.</h1>
+        <p class="hero-text">I'm Tebogo Matlhoko, a Computer Science & Mathematics graduate who enjoys turning ideas and real-world problems into clean, useful software.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work <span>↓</span></a>
+          <a class="btn ghost" href="#contact">Contact me <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>📍 North-West, South Africa</span><span>✦ Open to junior opportunities</span></div>
+      </div>
+      <div class="hero-art reveal delay">
+        <div class="code-card">
+          <div class="window-bar"><span></span><span></span><span></span><small>portfolio.js</small></div>
+          <pre><code><b>const</b> developer = {
+  name: <i>"Tebogo"</i>,
+  role: <i>"Junior Developer"</i>,
+  skills: [
+    <i>"JavaScript"</i>,
+    <i>"React"</i>,
+    <i>"Node.js"</i>,
+    <i>"SQL"</i>
+  ],
+  mindset: <i>"Keep learning"</i>
+};</code></pre>
+        </div>
+        <div class="float-card one">⚡ <strong>Problem solver</strong></div>
+        <div class="float-card two">⌘ <strong>Clean code</strong></div>
+        <div class="hero-badge"><span>✦</span> Let's build<br>something great</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-tag reveal">01 — ABOUT ME</div>
+      <div class="about-grid">
+        <div class="reveal"><h2>Curious mind.<br><span>Builder at heart.</span></h2></div>
+        <div class="about-copy reveal">
+          <p>I’m a junior software developer focused on building responsive, practical applications. My background in Computer Science and Mathematics helps me approach problems logically while keeping the end user in mind.</p>
+          <p>I’m continuously improving my frontend and backend skills by building projects, learning modern development practices, and turning concepts into working products.</p>
+          <div class="stats"><div><strong>2021</strong><span>Graduate</span></div><div><strong>8+</strong><span>Core technologies</span></div><div><strong>∞</strong><span>Things to learn</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-tag reveal">02 — TOOLKIT</div>
+      <div class="skills-head reveal"><h2>My <span>toolbox</span></h2><p>Technologies I use to learn, build and solve problems.</p></div>
+      <div class="skill-grid">
+        <div class="skill-card reveal"><b>01</b><div class="skill-icon">⌁</div><h3>Frontend</h3><p>HTML · CSS · JavaScript · React</p><div class="meter"><span style="width:88%"></span></div></div>
+        <div class="skill-card reveal delay"><b>02</b><div class="skill-icon">◈</div><h3>Backend</h3><p>Node.js · REST APIs · Python</p><div class="meter"><span style="width:78%"></span></div></div>
+        <div class="skill-card reveal"><b>03</b><div class="skill-icon">▦</div><h3>Data</h3><p>SQL · SQLite · Data modelling</p><div class="meter"><span style="width:76%"></span></div></div>
+        <div class="skill-card reveal delay"><b>04</b><div class="skill-icon">⌘</div><h3>Workflow</h3><p>Git · GitHub · Debugging · Problem solving</p><div class="meter"><span style="width:84%"></span></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-tag reveal">03 — SELECTED WORK</div>
+      <div class="projects-head reveal"><h2>Things I've <span>built.</span></h2><p>Practical projects that demonstrate my growth from interface to backend logic.</p></div>
+      <article class="project featured reveal">
+        <div class="project-visual library"><div class="mini-ui"><div class="mini-top"><b>LIBRARY</b><span>Dashboard</span></div><div class="mini-stats"><i>Books <b>248</b></i><i>Members <b>96</b></i><i>Loans <b>31</b></i></div><div class="mini-table"><span>Clean Architecture</span><span>REST API</span><span>SQLite</span></div></div></div>
+        <div class="project-info"><span class="project-no">PROJECT 01</span><h3>Library Management System</h3><p>A full-stack system for managing books, members and borrowing activity, with search, validation, loan history, overdue detection and dashboard statistics.</p><div class="tags"><span>Node.js</span><span>Express</span><span>SQLite</span><span>JavaScript</span></div><div class="project-links"><a href="#" onclick="return false">Full-stack project ↗</a><span>V3</span></div></div>
+      </article>
+      <article class="project reveal">
+        <div class="project-visual expense"><div class="chart"><span style="height:48%"></span><span style="height:72%"></span><span style="height:58%"></span><span style="height:88%"></span><span style="height:65%"></span><span style="height:94%"></span></div><div class="chart-label">EXPENSE TRACKER</div></div>
+        <div class="project-info"><span class="project-no">PROJECT 02</span><h3>Expense Tracker</h3><p>A practical personal finance application concept focused on recording expenses, categorising spending and making financial information easier to understand.</p><div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Local Storage</span></div></div>
+      </article>
+    </section>
+
+    <section class="section qualities">
+      <div class="section-tag reveal">04 — HOW I WORK</div>
+      <div class="quality-grid">
+        <div class="quality reveal"><span>01</span><h3>Think first.</h3><p>Break a problem into smaller pieces before writing code.</p></div>
+        <div class="quality reveal delay"><span>02</span><h3>Build simply.</h3><p>Prefer readable, maintainable solutions over unnecessary complexity.</p></div>
+        <div class="quality reveal"><span>03</span><h3>Keep learning.</h3><p>Learn from feedback, documentation, debugging and hands-on projects.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-card reveal">
+        <div><p class="eyebrow"><span></span> HAVE A PROJECT IN MIND?</p><h2>Let's make something<br><em>meaningful.</em></h2></div>
+        <div class="contact-right"><p>I'm open to junior software developer opportunities, collaborations and projects where I can learn, contribute and grow.</p><a class="btn primary" href="mailto:your.email@example.com">Send me an email ↗</a><small>Replace the email address and social links in <b>script.js</b>.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand">TM<span>.</span></div><p>© 2026 Tebogo Matlhoko · Built with curiosity & code.</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
